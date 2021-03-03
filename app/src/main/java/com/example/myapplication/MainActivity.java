@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
         super.onDestroy();
         cameraModule.close();
-
+        //테스트입니다
     }
 
     private void initTextureView() {
